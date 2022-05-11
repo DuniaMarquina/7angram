@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagenes/1 TANGRAM.png</file>
+        <file>imagenes/2 TANGRAM.png</file>
+        <file>imagenes/3 TANGRAM.png</file>
+        <file>imagenes/4 TANGRAM.png</file>
+        <file>imagenes/5 TANGRAM.png</file>
+        <file>imagenes/6 TANGRAM.png</file>
+        <file>imagenes/7.png</file>
+        <file>imagenes/7 TANGRAM.png</file>
+        <file>imagenes/7ANGRAM LOGO.png</file>
+        <file>imagenes/7ANGRAM LOGO A COLOR.png</file>
+        <file>imagenes/AGRAM.png</file>
+        <file>imagenes/Bombillo.jpg</file>
+        <file>imagenes/Computadora.png</file>
+        <file>imagenes/CONTORNO.png</file>
+        <file>imagenes/Cytrus Logo.png</file>
+        <file>imagenes/Flecha.png</file>
+        <file>imagenes/FlechaTransparente.png</file>
+        <file>imagenes/Instructions.png</file>
+        <file>imagenes/Play.jpg</file>
+        <file>imagenes/Play.png</file>
+        <file>imagenes/Reloj.jpg</file>
+        <file>imagenes/Salir.png</file>
+        <file>imagenes/TANGRAM.png</file>
+        <file>imagenes/Tortuga.png</file>
+        <file>imagenes/TANGRAM2.png</file>
+    </qresource>
+</RCC>

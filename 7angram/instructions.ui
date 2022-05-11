@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Instructions</class>
+ <widget class="QMainWindow" name="Instructions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+background-color: rgb(255, 255, 255);
+}
+
+#instructions{
+color: #999;
+font-size: 30px;
+}
+
+#text1,#text2,#text4,#text5,#text6,#text7,#text8{
+color: #000;
+font-size: 25px;
+}
+
+#text3{
+color: #000;
+font-size: 30px;
+font-weight: 900;
+}
+
+#iconoBack{
+background-color: #FFF;
+border: none;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logoTangram">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>591</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="imagenes.qrc">:/imagenes/7ANGRAM LOGO A COLOR.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iconoBack">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>450</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#iconoBack{
+	image: url(:/imagenes/Flecha.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>80</y>
+      <width>381</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>INSTRUCTIONS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>170</y>
+      <width>901</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>The game consists of seven pieces that must be arranged to form</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>901</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>the proposed figure. No pieces can be left over.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>260</y>
+      <width>901</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Details to be considered:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text4">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>320</y>
+      <width>941</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Note that many parts are equivalent. The rhomboid, the medium</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>350</y>
+      <width>901</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>triangle and the square are equivalent (they have the same area).</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>380</y>
+      <width>951</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Putting together the two small triangles we can build the square,</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text7">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>410</y>
+      <width>931</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>the rhomboid and the medium triangle. The rhomboid is not the</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>440</y>
+      <width>901</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>same face up as face down, we many need flip it</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagenes.qrc"/>
+ </resources>
+ <connections/>
+</ui>
