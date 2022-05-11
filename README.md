@@ -46,4 +46,3 @@ Consistió en:
 
 -Dunia Marquina
 
--David Aguilar
