@@ -96,11 +96,11 @@ void Tablero::define_result()
             ui->centralwidget->setEnabled(false);
             msgBox.setText(" ;( Game over\n Play again?");
             if (QMessageBox::Yes == msgBox.exec()){
-               start_game();
+                 close();
+                padre->show();
             }
             else{
                 close();
-                padre->show();
             }
         }
     }
