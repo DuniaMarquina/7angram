@@ -6,11 +6,7 @@ Este juego consta de 7 piezas: 2 triángulos grandes, 2 triángulos pequeños, 1
 
 COMO UTILIZARLO:
 
-1.Requerimientos: Descargar e instalar
-  -Designar:Es una biblioteca que implementa importantes estructuras de datos y algoritmos.
-  En este enlace están las instrucciones para descargar y compilar:
-  https://github.com/R3mmurd/DeSiGNAR/blob/master/README.md 
-  
+1.Requerimientos: Descargar e instalar  
   -Qt: Es un framework multiplataforma orientado a objetos ampliamente usado para desarrollar programas que utilicen interfaz gráfica de usuario, así como también diferentes tipos de herramientas para la línea de comandos y consolas para servidores que no necesitan una interfaz gráfica de usuario.
 En este enlace puedes descargarlo: https://www.qt.io/
 Aquí un video que puede ser útil al instalarlo: https://www.youtube.com/watch?v=nscgFv4l53w
@@ -19,14 +15,14 @@ Aquí un video que puede ser útil al instalarlo: https://www.youtube.com/watch?
 En la carpeta que desees extrae el contenido del archivador (.zip).
 
 3.Compilar y ejecutar: Abre Qt, selecciona la opción open que permite buscar la carpeta del proyecto que deseas abrir. Busca la carpeta 7angram al abrir sigue los pasos para configurarlo.
-Verifica que la dirección de Designar este bien en el archivo .pro
 Compila o corre el programa seleccionando la opción run o presiona en el ícono.
 
 4.Usar: Presiona la opción jugar. 
-  -Si no sabes, presiona instrucciones y se desplegará un cuadro de texto en el cual podrás visualizar las instrucciones del juego.
-  -Si necesitas ayuda presiona el ícono de ayuda. 
-  -Si necesitas rotar una pieza, selecciona la pieza y presiona el botón rotar; has esto varias veces seguidas hasta obtener la posición deseada.
-  -Selecciona la pieza y muevela hasta la posición que adecuada para armar la figura de la silueta mostrada.
+  -Si no sabes, presiona instrucciones y se visualizará las instrucciones del juego.
+  -Si deseas cerrar el juego, presiona salir.
+  -Al jugar, si necesitas ayuda presiona el ícono de ayuda y se visualizará la silueta de la figura con sus divisiones correspondientes a cada pieza. 
+  -Si necesitas rotar una pieza, selecciona la pieza y presiona el botón rotar; has esto varias veces hasta obtener la posición deseada.
+  -Selecciona la pieza y muevela hasta la posición adecuada para armar la figura de la silueta mostrada.
   -Al completar la figura avanzas de nivel.
   -Importante: Tienes un minuto para hacerlo, sino perderás. Puedes volver a jugar o finalizar el juego.
 
@@ -34,11 +30,11 @@ DESARROLLO
 
 Consistió en:
 
--Generación de tableros.
+-Generación de tablero.
 
 -Validación de piezas mediante algoritmos de geometría computacional.
 
--Bot que ayude a proponer piezas.
+-Bot que ayuda.
 
 *Desarrolladores*:
 
