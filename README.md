@@ -21,8 +21,8 @@ Compila o corre el programa seleccionando la opción run o presiona en el ícono
   -Si no sabes, presiona instrucciones y se visualizará las instrucciones del juego.
   -Si deseas cerrar el juego, presiona salir.
   -Al jugar, si necesitas ayuda presiona el ícono de ayuda y se visualizará la silueta de la figura con sus divisiones correspondientes a cada pieza. 
-  -Si necesitas rotar una pieza, selecciona la pieza y presiona el botón rotar; has esto varias veces hasta obtener la posición deseada.
-  -Selecciona la pieza y muevela hasta la posición adecuada para armar la figura de la silueta mostrada.
+  -Si necesitas rotar una pieza, selecciona la pieza y presiona el botón derecho del ratón; has esto varias veces hasta obtener la posición deseada.
+  -Selecciona la pieza con el botón izquierdo del ratón y muevela hasta la posición adecuada para armar la figura de la silueta mostrada.
   -Al completar la figura avanzas de nivel.
   -Importante: Tienes un minuto para hacerlo, sino perderás. Puedes volver a jugar o finalizar el juego.
 
