@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="imagenes.qrc">
-    <normaloff>:/imagenes/7.png</normaloff>:/imagenes/7.png</iconset>
+    <normaloff>:/imagenes/Logos/icono.png</normaloff>:/imagenes/Logos/icono.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">#centralwidget{
@@ -114,7 +114,7 @@ font-weight: 900
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="imagenes.qrc">:/imagenes/7ANGRAM LOGO A COLOR.png</pixmap>
+     <pixmap resource="imagenes.qrc">:/imagenes/Logos/7ANGRAM LOGO A COLOR.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -133,7 +133,7 @@ font-weight: 900
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="imagenes.qrc">:/imagenes/FlechaTransparente.png</pixmap>
+     <pixmap resource="imagenes.qrc">:/imagenes/Iconos/FlechaTransparente.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -155,7 +155,7 @@ font-weight: 900
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="imagenes.qrc">:/imagenes/TANGRAM.png</pixmap>
+     <pixmap resource="imagenes.qrc">:/imagenes/Iconos/TANGRAM.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -175,7 +175,7 @@ font-weight: 900
     </property>
     <property name="styleSheet">
      <string notr="true">#iconoPlay{
-image: url(:/imagenes/Play.png);
+image: url(:/imagenes/Iconos/Play.png);
 }</string>
     </property>
     <property name="text">
@@ -196,7 +196,7 @@ image: url(:/imagenes/Play.png);
     </property>
     <property name="styleSheet">
      <string notr="true">#iconoInstructions{
-	image: url(:/imagenes/Instructions.png);
+	image: url(:/imagenes/Iconos/Instructions.png);
 }</string>
     </property>
     <property name="text">
@@ -217,7 +217,7 @@ image: url(:/imagenes/Play.png);
     </property>
     <property name="styleSheet">
      <string notr="true">#iconoExit{
-	image: url(:/imagenes/Salir.png);
+	image: url(:/imagenes/Iconos/Salir.png);
 }</string>
     </property>
     <property name="text">
@@ -282,7 +282,7 @@ image: url(:/imagenes/Play.png);
      </rect>
     </property>
     <property name="text">
-     <string>V 4.0</string>
+     <string>V 8.0</string>
     </property>
    </widget>
    <zorder>playButton</zorder>

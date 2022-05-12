@@ -38,4 +38,18 @@ RESOURCES += \
     imagenes.qrc
 
 DISTFILES += \
-    imagenes/Reloj.jpg
+    imagenes/FigurasGris/1.png \
+    imagenes/FigurasGris/10.png \
+    imagenes/FigurasGris/11.png \
+    imagenes/FigurasGris/2.png \
+    imagenes/FigurasGris/3.png \
+    imagenes/FigurasGris/4.png \
+    imagenes/FigurasGris/5.png \
+    imagenes/FigurasGris/6.png \
+    imagenes/FigurasGris/7.png \
+    imagenes/FigurasGris/8.png \
+    imagenes/FigurasGris/9.png \
+    imagenes/Reloj.jpg \
+    imagenes/Soluciones/1.jpg \
+    imagenes/Soluciones/7.jpg \
+    imagenes/Soluciones/8.jpg

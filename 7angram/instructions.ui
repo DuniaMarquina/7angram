@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Instructions - 7angram</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagenes.qrc">
+    <normaloff>:/imagenes/Logos/icono.png</normaloff>:/imagenes/Logos/icono.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">#centralwidget{
@@ -53,7 +57,7 @@ border: none;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="imagenes.qrc">:/imagenes/7ANGRAM LOGO A COLOR.png</pixmap>
+     <pixmap resource="imagenes.qrc">:/imagenes/Logos/7ANGRAM LOGO A COLOR.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -73,7 +77,7 @@ border: none;
     </property>
     <property name="styleSheet">
      <string notr="true">#iconoBack{
-	image: url(:/imagenes/Flecha.png);
+	image: url(:/imagenes/Iconos/Flecha.png);
 }</string>
     </property>
     <property name="text">

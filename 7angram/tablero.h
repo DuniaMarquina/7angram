@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QTimer>
 #include <QTime>
+#include <QMessageBox>
 
 namespace Ui {
 class Tablero;
@@ -14,27 +15,33 @@ class Tablero : public QMainWindow
 {
     Q_OBJECT
     QPushButton *button;
-    QTimer *timer = new QTimer;
-    QTime time;
-    QString level;
-    QPoint last_pos, actual_pos;
-    int p;
+    bool mdrag;
+    QPoint lastPoint;
 
 public:
     explicit Tablero(QMainWindow *parent = nullptr);
+    QTimer *timer=new QTimer();
+    QTime time;
+    int remainingPieces;
+    int levelNumber=1;
+    QMessageBox msgBox;
+
+
+    void mousePressEvent(QMouseEvent *ev) override;
+    void dragEnterEvent(QDragEnterEvent *ev) override;
+    void dragMoveEvent(QDragMoveEvent *ev) override;
+    void dropEvent(QDropEvent *ev) override;
+
+
     ~Tablero();
-
-    void init();
-    void result_end();
-
-protected:
-
-
 public slots:
     void verify_button();
-    void actual_time();
-    void actual_state();
-    void game();
+    void update_status();
+    void update_stopwatch();
+    void define_result();
+    void start_game();
+    void show_solution();
+    void hide_solution();
 
 private:
     Ui::Tablero *ui;

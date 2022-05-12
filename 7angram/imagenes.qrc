@@ -1,29 +1,59 @@
 <RCC>
     <qresource prefix="/">
-        <file>imagenes/1 TANGRAM.png</file>
-        <file>imagenes/2 TANGRAM.png</file>
-        <file>imagenes/3 TANGRAM.png</file>
-        <file>imagenes/4 TANGRAM.png</file>
-        <file>imagenes/5 TANGRAM.png</file>
-        <file>imagenes/6 TANGRAM.png</file>
-        <file>imagenes/7.png</file>
-        <file>imagenes/7 TANGRAM.png</file>
-        <file>imagenes/7ANGRAM LOGO.png</file>
-        <file>imagenes/7ANGRAM LOGO A COLOR.png</file>
-        <file>imagenes/AGRAM.png</file>
-        <file>imagenes/Bombillo.jpg</file>
-        <file>imagenes/Computadora.png</file>
-        <file>imagenes/CONTORNO.png</file>
-        <file>imagenes/Cytrus Logo.png</file>
-        <file>imagenes/Flecha.png</file>
-        <file>imagenes/FlechaTransparente.png</file>
-        <file>imagenes/Instructions.png</file>
-        <file>imagenes/Play.jpg</file>
-        <file>imagenes/Play.png</file>
-        <file>imagenes/Reloj.jpg</file>
-        <file>imagenes/Salir.png</file>
-        <file>imagenes/TANGRAM.png</file>
-        <file>imagenes/Tortuga.png</file>
-        <file>imagenes/TANGRAM2.png</file>
+        <file>imagenes/Figuras/1.png</file>
+        <file>imagenes/Figuras/2.png</file>
+        <file>imagenes/Figuras/3.png</file>
+        <file>imagenes/Figuras/4.png</file>
+        <file>imagenes/Figuras/5.png</file>
+        <file>imagenes/Figuras/6.png</file>
+        <file>imagenes/Figuras/7.png</file>
+        <file>imagenes/Figuras/8.png</file>
+        <file>imagenes/Figuras/9.png</file>
+        <file>imagenes/Figuras/10.png</file>
+        <file>imagenes/Figuras/11.png</file>
+        <file>imagenes/Iconos/Bombillo.jpg</file>
+        <file>imagenes/Iconos/Flecha.png</file>
+        <file>imagenes/Iconos/FlechaTransparente.png</file>
+        <file>imagenes/Iconos/Instructions.png</file>
+        <file>imagenes/Iconos/Play.jpg</file>
+        <file>imagenes/Iconos/Play.png</file>
+        <file>imagenes/Iconos/Reloj.jpg</file>
+        <file>imagenes/Iconos/Salir.png</file>
+        <file>imagenes/Iconos/TANGRAM.png</file>
+        <file>imagenes/Iconos/TANGRAM2.png</file>
+        <file>imagenes/Logos/7ANGRAM LOGO.png</file>
+        <file>imagenes/Logos/7ANGRAM LOGO A COLOR.png</file>
+        <file>imagenes/Logos/AGRAM.png</file>
+        <file>imagenes/Logos/Cytrus Logo.png</file>
+        <file>imagenes/Logos/icono.png</file>
+        <file>imagenes/Piezas/1 TANGRAM.png</file>
+        <file>imagenes/Piezas/2 TANGRAM.png</file>
+        <file>imagenes/Piezas/3 TANGRAM.png</file>
+        <file>imagenes/Piezas/4 TANGRAM.png</file>
+        <file>imagenes/Piezas/5 TANGRAM.png</file>
+        <file>imagenes/Piezas/6 TANGRAM.png</file>
+        <file>imagenes/Piezas/7 TANGRAM.png</file>
+        <file>imagenes/FigurasGris/1.png</file>
+        <file>imagenes/FigurasGris/2.png</file>
+        <file>imagenes/FigurasGris/3.png</file>
+        <file>imagenes/FigurasGris/4.png</file>
+        <file>imagenes/FigurasGris/5.png</file>
+        <file>imagenes/FigurasGris/6.png</file>
+        <file>imagenes/FigurasGris/7.png</file>
+        <file>imagenes/FigurasGris/8.png</file>
+        <file>imagenes/FigurasGris/9.png</file>
+        <file>imagenes/FigurasGris/10.png</file>
+        <file>imagenes/FigurasGris/11.png</file>
+        <file>imagenes/Soluciones/1.jpg</file>
+        <file>imagenes/Soluciones/7.jpg</file>
+        <file>imagenes/Soluciones/8.jpg</file>
+        <file>imagenes/Soluciones/3.jpg</file>
+        <file>imagenes/Soluciones/4.jpg</file>
+        <file>imagenes/Soluciones/5.jpg</file>
+        <file>imagenes/Soluciones/6.jpg</file>
+        <file>imagenes/Soluciones/9.jpg</file>
+        <file>imagenes/Soluciones/2.jpg</file>
+        <file>imagenes/Soluciones/10.jpg</file>
+        <file>imagenes/Soluciones/11.jpg</file>
     </qresource>
 </RCC>
